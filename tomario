@@ -1,0 +1,2 @@
+#/bin/bash
+scp -r $1 planet@ptbbpc1.epfl.ch:/home/planet/

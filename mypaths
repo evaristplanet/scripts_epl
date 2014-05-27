@@ -1,0 +1,8 @@
+#/bin/bash
+alias bash_paths="cat /Volumes/Trono-Lab/Team\ LVG/Evarist/mypaths"
+
+alias pila="cd /Volumes/Trono-Lab/Team\ LVG/bioinfo/projects/pila"
+alias evarist="cd /Volumes//Trono-Lab/Team\ LVG/Evarist"
+alias bioinfo="cd /Volumes//Trono-Lab/Team\ LVG/bioinfo"
+alias nat="cd /Volumes//Trono-Lab/Team\ LVG/bioinfo/projects/nat"
+alias marc="cd /Volumes/Trono-Lab/Team\ LVG/bioinfo/projects/marc"
