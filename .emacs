@@ -387,8 +387,7 @@
 (ido-mode t)
 
 ;;shortcut for comment/uncomment
-;; Original idea from
-;; http://www.opensubscriber.com/message/emacs-devel@gnu.org/10971693.html
+;; from http://www.opensubscriber.com/message/emacs-devel@gnu.org/10971693.html
 (defun comment-dwim-line (&optional arg)
   "Replacement for the comment-dwim command.
         If no region is selected and current line is not blank and we are not at the end of the line,
