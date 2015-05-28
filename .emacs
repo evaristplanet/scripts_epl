@@ -399,3 +399,12 @@
       (comment-or-uncomment-region (line-beginning-position) (line-end-position))
     (comment-dwim arg)))
 (global-set-key "\M-;" 'comment-dwim-line)
+
+;;delete contiguous white space
+(defun clean-whitespace-region (start end)
+  "Untabifies, removes trailing whitespace, and re-indents the region"
+  (interactive "r")
+  (save-excursion
+    (untabify start end)
+    ;; (c-indent-region start end)
+    (replace-regexp "[ \t]+" " " nil start end))) ;// uses literal space and tab chars
